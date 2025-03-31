@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+.DS_Store
+.vscode
+.venv
+.env
+.env.local
+.Trash-0

@@ -1,0 +1,6 @@
+[submodule "workspace/quiz/quiz-0"]
+	path = workspace/quiz/quiz-0
+	url = git@github.com:KU-SoftwareEngeering/quiz-0-dryrun-no-grade-astor-dev.git
+[submodule "workspace/debugging-book"]
+	path = workspace/debugging-book
+	url = git@github.com:astor-dev/COSE352-debuggingbook.git
