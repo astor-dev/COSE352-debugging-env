@@ -36,9 +36,12 @@ ENV LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH"
 RUN /usr/local/bin/python3.12 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-# venv 안에 설치
 RUN /opt/venv/bin/pip install --no-cache-dir --upgrade pip setuptools wheel && \
     /opt/venv/bin/pip install --no-cache-dir notebook==6.5.7
+
+# 추가 의존성들
+# pytest
+RUN /opt/venv/bin/pip install --no-cache-dir pytest
 
 # 작업 디렉토리 설정
 WORKDIR /workspace

@@ -4,3 +4,6 @@
 [submodule "workspace/debugging-book"]
 	path = workspace/debugging-book
 	url = git@github.com:astor-dev/COSE352-debuggingbook.git
+[submodule "workspace/assignments/fftracer"]
+	path = workspace/assignments/fftracer
+	url = git@github.com:KU-SoftwareEngeering/takehome-assignment-fftracer-astor-dev.git
