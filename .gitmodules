@@ -13,3 +13,6 @@
 [submodule "workspace/assignments/midterm"]
 	path = workspace/assignments/midterm
 	url = git@github.com:KU-SoftwareEngeering/midterm-exam-new-debugger-astor-dev.git
+[submodule "workspace/quiz/quiz-2"]
+	path = workspace/quiz/quiz-2
+	url = git@github.com:KU-SoftwareEngeering/quiz-2-real-delta-debugging-astor-dev.git
