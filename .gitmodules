@@ -10,3 +10,6 @@
 [submodule "workspace/quiz/quiz-1"]
 	path = workspace/quiz/quiz-1
 	url = git@github.com:KU-SoftwareEngeering/quiz-1-execution-sequence-tracer-astor-dev.git
+[submodule "workspace/assignments/midterm"]
+	path = workspace/assignments/midterm
+	url = git@github.com:KU-SoftwareEngeering/midterm-exam-new-debugger-astor-dev.git

@@ -1,0 +1,11 @@
+services:
+  ubuntu16-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.ubuntu16
+    container_name: ubuntu16-python37
+    volumes:
+      - ./workspace:/workspace
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
